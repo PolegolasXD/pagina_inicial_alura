@@ -7,6 +7,15 @@
     padding: 30px;
 }
 
+.caixa {
+    position: relative;
+    width: 100%;
+    margin: auto;
+    background: #cccccc;
+	border: 0;
+	vertical-align: baseline;
+}
+
 .titulo-principal{
     padding-left: 20px;
 }
@@ -47,3 +56,17 @@ ul {
 .imgBeneficios {
     width: 50%;
 }
+
+footer {
+    text-align: center;
+    background: url("image/bg.jpg");
+    padding: 40px 0;
+}
+
+.copyright{
+    color: #ffffff;
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+
