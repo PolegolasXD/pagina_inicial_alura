@@ -1,6 +1,7 @@
 header {
     background-color: #bbbbbb;
-    padding: 20px 0;
+    padding: 20px ;
+    margin: 0 0 20px 0;
 }
 
 .caixa {
@@ -84,7 +85,6 @@ footer {
     text-align: center;
     background: url("image/bg.jpg");
     padding: 40px 0;
-    margin-top: 10%;
 }
 
 .copyright{
@@ -123,7 +123,7 @@ form label, form legend{
 .enviar {
     width: 40%;
     padding: 15px 0;
-    margin: 0 15px 0 0;
+    margin: 20px 0;
     background-color: #6c93ff;
     color: white;
     font-weight: bold;
@@ -136,5 +136,22 @@ form label, form legend{
 }
 .enviar:hover {
     background: rgb(0, 183, 255);
+    transform: scale(1.2);
+
+}
+
+table {
+    margin: 20px 0 40px;
+}
+
+thead {
+    background: rgb(0, 38, 255);
+    color: white;
+    font-weight: bold;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 8px 15px ;
 }
 
