@@ -1,24 +1,22 @@
 #banner {
     width: 100%;
+    padding-top: 5px;
 }
 
 .principal {
-    background-color: #cccccc;
+    background-color: #bbbbbb;
     padding: 30px;
-}
-
-.caixa {
-    position: relative;
-    width: 100%;
-    margin: auto;
-    background: #cccccc;
-	border: 0;
-	vertical-align: baseline;
+    font-size: 60px;
+    
 }
 
 .titulo-principal{
     padding-left: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
 }
+
 
 .titulo-centralizado {
     text-align: center;
@@ -30,7 +28,7 @@ p {
 }
 
 #missao {
-    font-size: 20px;
+    font-size: 60px;
 }
 
 em strong {
@@ -55,6 +53,7 @@ ul {
 
 .imgBeneficios {
     width: 50%;
+    margin-left: 25%;
 }
 
 footer {
