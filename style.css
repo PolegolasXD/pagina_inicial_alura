@@ -1,9 +1,14 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*css do cabeçalho com logo das paginas*/
 header {
     background-color: #bbbbbb;
     padding: 20px ;
-    margin: 0 0 20px 0;
 }
 
+/*Css da pagina de produtos*/
 .caixa {
     position: relative;
     width: 940px;
@@ -81,6 +86,7 @@ nav a:hover {
     margin: 10px 0 0;
 }
 
+/*Css do rodapé das paginas*/
 footer {
     text-align: center;
     background: url("image/bg.jpg");
@@ -93,6 +99,7 @@ footer {
     margin-top: 20px;
 }
 
+/*Css da pagina de contato*/
 main{
     width: 940px;
     margin: 0 auto;
@@ -140,6 +147,7 @@ form label, form legend{
 
 }
 
+/*Css da tabela*/
 table {
     margin: 20px 0 40px;
 }
@@ -155,3 +163,46 @@ td, th {
     padding: 8px 15px ;
 }
 
+/*css da pagina inicial*/
+.banner {
+    width: 100%;
+}
+
+.titulo-principal {
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
+}
+
+.principal p {
+    margin: 0 0 1em;
+}
+
+.principal strong {
+    font-weight: bold;
+
+}
+
+.principal em {
+    font-style: italic;
+}
+
+.utensilios {
+    width: 120px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.imgBeneficios {
+    width: 60%;
+}
+
+.mapa {
+    padding: 3em 0;
+}
+
+.mapa p {
+    margin: 0 0 2em;
+    text-align: center;
+}
