@@ -5,7 +5,7 @@ body {
 /*css do cabeçalho com logo das paginas*/
 header {
     background-color: #bbbbbb;
-    padding: 20px ;
+    padding: 20px;
 }
 
 /*Css da pagina de produtos*/
@@ -93,32 +93,31 @@ footer {
     padding: 40px 0;
 }
 
-.copyright{
+.copyright {
     color: #ffffff;
     font-size: 13px;
     margin-top: 20px;
 }
 
 /*Css da pagina de contato*/
-main{
-    
-}
+main {}
 
-form{
-    margin: 40px 0; 
+form {
+    margin: 40px 0;
     display: inline;
 }
 
-form label, form legend{
+form label,
+form legend {
     display: block;
     font-size: 20px;
     margin: 0 0 10px;
 }
 
-.input-padrao{
+.input-padrao {
     display: block;
     margin: 0 0 20px;
-    padding: 5px  25px;
+    padding: 5px 25px;
     width: 50%;
 }
 
@@ -140,6 +139,7 @@ form label, form legend{
     cursor: pointer;
 
 }
+
 .enviar:hover {
     background: rgb(0, 183, 255);
     transform: scale(1.2);
@@ -157,9 +157,10 @@ thead {
     font-weight: bold;
 }
 
-td, th {
+td,
+th {
     border: 1px solid black;
-    padding: 8px 15px ;
+    padding: 8px 15px;
 }
 
 /*css da pagina inicial*/
@@ -220,12 +221,12 @@ td, th {
     background: #888888;
 }
 
-.conteudo-beneficios{
+.conteudo-beneficios {
     width: 640px;
     margin: 0 auto;
 }
 
-.lista-beneficios{
+.lista-beneficios {
     width: 40%;
     display: inline-block;
     vertical-align: top;
