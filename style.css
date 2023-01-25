@@ -8,6 +8,11 @@ header {
     padding: 20px;
 }
 
+main {
+    padding: 4rem;
+
+}
+
 /*Css da pagina de produtos*/
 .caixa {
     position: relative;
@@ -38,6 +43,7 @@ nav a {
 nav a:hover {
     color: #d400ff;
     text-decoration: underline;
+    transition: 200ms;
 }
 
 .produtos {
@@ -56,14 +62,20 @@ nav a:hover {
     box-sizing: border-box;
     border: 2px solid #000000;
     border-radius: 10px;
+    transition: 200ms;
+
 }
 
 .produtos li:hover {
     border-color: #d400ff;
+    transition: 200ms;
+
 }
 
 .produtos li:active {
     border-color: aqua;
+    transition: 200ms;
+
 }
 
 .produtos li:hover h2 {
